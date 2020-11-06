@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+margin: 0;
+}
+body{
+    background-image: url(../img/background.png);
+    background-repeat: repeat;
+    font-family: Arial, sans-serif;
+    color:white;
+    font-size: 13px;
+    font-weight: bold;
+}
+nav{
+    background-color: #C55394;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    height:70px;
+   }
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+ul li{
+    list-style-type: none;
+    width: 130px;
+  }
+ ul li a{
+    display: block;
+    text-align: center;
+    line-height:70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+ul li a:hover{
+    background-color: #EB43A3;
+    color: inherit;
+}
+h1,h2,h3, .logo{
+    font-family: 'Courgette', cursive;
+    font-weight: 400;    
+}
+.logo{ font-size: 2.1em;
+    
+}
+h1{ 
+    font-size: 2.5em;
+    position: absolute;
+    bottom: 150px;
+    font-weight: bold;
+    color:#C55394;
+}
+h2{
+    font-size: 1.8em;
+  }
+.pink{
+    font-size: 1em;
+    margin-right: 5px;
+}
+h2, h3, .pink{
+    color:#EB43A3;
+    padding-bottom: 20px;
+}
+.haut{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    position: relative;
+  }
+.container{
+    margin: -120px  auto 50px;
+    width: 65%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 10;
+    position: relative;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(158,152,158,1), -3px -3px 5px 0px rgba(189,179,189,1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(158,152,158,1), -3px -3px 5px 0px rgba(189,179,189,1);
+     box-shadow: 2px 2px 5px 0px rgba(158,152,158,1),  -3px -3px 5px 0px rgba(189,179,189,1);
+}
+section, .adresse{
+    margin: 2%;
+}
+p{
+    font-weight:400;
+    
+    font-size: 1.1em;
+    color:#333;
+}
+p,h3{
+    padding-top: 20px;
+}
+.licorne{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.itemLicorne{
+    width: 23.5%;
+}
+.itemLicorne img{
+    width: 100%
+}
+figure {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+figcaption {
+    background-color: black;
+    color: #fff;
+    margin-top: -40px;
+    text-align: center;
+    opacity: 0.8;
+    height:40px;
+    line-height: 40px;
+}
+.contact{
+    display: flex;
+    }
+
+.adresse form p{
+      padding-top:0;
+}
+input{
+   display: block; 
+   margin-top: 20px;
+}
+.btn{    
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    background-color: #EB43A3;
+    line-height: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    color:white;
+}
+.mail, .btn{
+    height:30px;
+}
+.mail{
+    width: 200px;
+    border: 1px solid rgb(124, 122, 122);
+}
+input::placeholder{
+    margin-left: 10px;
+}
+footer{
+    height:50px;
+    text-align:right;
+    background-color: #E577B5;
+    padding-right: 20px;
+}
+footer p, h3{
+    font-weight: bold;
+}
+ footer p{ 
+    color: white;
+    } 
+.margeB{  padding-bottom: 50px; }
+
